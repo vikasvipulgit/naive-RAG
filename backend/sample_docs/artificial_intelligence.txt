@@ -1,0 +1,16 @@
+Artificial Intelligence: Concepts, Architecture and Retrieval-Augmented Generation
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think, reason, and learn. In recent years, deep learning and transformer-based neural network architectures have driven breakthrough progress across natural language processing (NLP), computer vision, and autonomous systems.
+
+Large Language Models (LLMs) such as GPT-4, Gemini, and Claude are trained on massive corpora of web text. While LLMs exhibit remarkable reasoning and linguistic fluency, they suffer from two major limitations:
+1. Knowledge Cutoff: LLMs only know facts present in their training data and cannot access proprietary or recently updated information.
+2. Hallucinations: When an LLM lacks specific factual knowledge, it often generates plausible-sounding yet factually incorrect statements.
+
+To overcome these limitations, researchers introduced Retrieval-Augmented Generation (RAG). The foundational paradigm is known as Naive RAG.
+Naive RAG follows a straightforward three-stage pipeline:
+1. Indexing: External documents are ingested, parsed into plain text, and split into fixed-size chunks (e.g., 500 characters with a 100-character sliding overlap). Each chunk is converted into a continuous dense mathematical vector using an embedding model and stored in a vector index.
+2. Retrieval: When a user submits a query, the query is converted into an embedding vector. A similarity metric (most commonly Cosine Similarity) computes the distance between the query vector and all chunk vectors in the database. The top-K most similar chunks are selected.
+3. Generation: The retrieved chunks are formatted into a system-augmented prompt alongside the user's question. An LLM receives this prompt and synthesizes a grounded answer referencing the provided facts.
+
+Naive RAG dramatically reduces hallucinations by constraining the language model to rely on verifiable retrieved context rather than ungrounded internal parametric memory.
+

@@ -1,0 +1,13 @@
+Apollo 11: The Historic Lunar Landing Mission
+
+Apollo 11 was the American spaceflight that first landed humans on the Moon. Launched on July 16, 1969, from Launch Complex 39A at the Kennedy Space Center in Florida, the mission carried Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin "Buzz" Aldrin Jr.
+
+The spacecraft comprised three distinct modules:
+1. Command Module (Columbia): The cabin that housed the three astronauts and the only portion that returned to Earth.
+2. Service Module: Provided propulsion, electrical power, oxygen, and water.
+3. Lunar Module (Eagle): Designed specifically for landing on the lunar surface and supporting two crew members.
+
+On July 20, 1969, at 20:17 UTC, the Lunar Module Eagle touched down in the Sea of Tranquility (Mare Tranquillitatis). Neil Armstrong announced to mission control in Houston: "Houston, Tranquility Base here. The Eagle has landed." Six hours later, on July 21 at 02:56 UTC, Armstrong stepped onto the lunar surface and spoke the iconic words: "That's one small step for [a] man, one giant leap for mankind."
+
+Armstrong and Aldrin spent approximately 21 hours and 36 minutes on the lunar surface, collecting 47.5 pounds (21.5 kg) of lunar rock and soil samples. Meanwhile, Michael Collins orbited alone in Columbia overhead. The astronauts safely splashed down in the Pacific Ocean on July 24, 1969, recovered by the USS Hornet.
+
